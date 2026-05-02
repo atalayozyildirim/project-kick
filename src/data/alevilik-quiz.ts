@@ -17,7 +17,7 @@ export const alevilikQuiz: QuizQuestion[] = [
     id: "hizir-gibi",
     eyebrow: "Soru 2 / 18",
     question: "Cem erkani gelenekte hangi mekanda yurutulur?",
-    answers: ["CemEvi", "Evde", "Salon"],
+    answers: ["Cemevi", "Evde", "Salon"],
     points: [2, 3, 1],
     correctAnswer: 0,
   },
@@ -77,7 +77,7 @@ export const alevilikQuiz: QuizQuestion[] = [
     eyebrow: "Soru 9 / 18",
     question:
       "Çekirdek/Geniş ailende Alevi türküleri ile büyüdüm (kıvırcık ali,Güler duman,grup abdal,enginn nursani vs.)",
-    answers: ["Evet", "Hayır", "Rihanna"],
+    answers: ["Evet", "Hayır", "Rihanna ile büyüdüm ben slaysss"],
     points: [3, 2, 0],
     correctAnswer: 0,
   },
