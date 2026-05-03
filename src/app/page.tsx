@@ -314,14 +314,7 @@ export default function OverlayPage() {
                     initial={{ opacity: 0, y: 14 }}
                     animate={{ opacity: 1, y: 0 }}
                     className="mt-5 flex justify-center"
-                  >
-                    <button
-                      onClick={goToResults}
-                      className="border border-gold/60 bg-gold/10 px-8 py-4 text-xl font-black text-gold transition hover:bg-gold hover:text-black"
-                    >
-                      Sonuçlara Bak
-                    </button>
-                  </motion.div>
+                  ></motion.div>
                 )}
 
                 <div className="mt-6 grid grid-cols-5 gap-2">
