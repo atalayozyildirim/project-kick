@@ -9,8 +9,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "ALEVİLİK YÜZDE ÖLÇÜM TESTİ",
+  title: "ALEVİLİK YETERLİLİK ÖLÇÜM TESTİ",
   description: "NE KADAR ALEVİSİN",
+  icons: "/icon.png",
 };
 
 export default function RootLayout({

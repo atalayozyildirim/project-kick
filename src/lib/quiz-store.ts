@@ -6,6 +6,7 @@ export type QuizQuestion = {
   id: string;
   eyebrow: string;
   question: string;
+  voice?: boolean;
   answers: [string, string, string];
   points: [number, number, number];
   correctAnswer: AnswerIndex;

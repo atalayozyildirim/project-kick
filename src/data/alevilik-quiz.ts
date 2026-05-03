@@ -3,7 +3,7 @@ import type { QuizQuestion } from "@/lib/quiz-store";
 export const alevilikQuiz: QuizQuestion[] = [
   {
     id: "saz-teli",
-    eyebrow: "Soru 1 / 18",
+    eyebrow: "Soru 1/24",
     question: "Aleviler de dede kavramı nedir",
     answers: [
       "Alevilerde Cem ibadetini dede yönetir. Yani din adamına dede denir. Dedelerin soyunun Hz. Muhammed’e dayandığına inanılır.",
@@ -14,16 +14,41 @@ export const alevilikQuiz: QuizQuestion[] = [
     correctAnswer: 1,
   },
   {
+    id: "kıvırcık-ali",
+    eyebrow: "Soru 2/24",
+    question: "Çalan şarkının Adi nedir",
+    answers: [
+      "Kıvırcık Ali Isırgan otu",
+      "Kıvırcık Ali - Al Ömrümü",
+      "Semiramis Pekkan - Çikita Muz",
+    ],
+    voice: true,
+    points: [2, 3, 1],
+    correctAnswer: 0,
+  },
+  {
     id: "hizir-gibi",
-    eyebrow: "Soru 2 / 18",
+    eyebrow: "Soru 3/24",
     question: "Cem erkani gelenekte hangi mekanda yurutulur?",
-    answers: ["Cemevi", "Evde", "Salon"],
+    answers: ["Cemevi", "Evde", "Salonda "],
+    points: [2, 3, 1],
+    correctAnswer: 0,
+  },
+  {
+    id: "hizir-gibi24",
+    eyebrow: "Soru 4/24",
+    question: "Ata ankaraya geldi Eryaman'lar cemevin de gördün naparsın?",
+    answers: [
+      "Döverim (Sadece çisem,Çisem harici ebenize  619 çeker)",
+      "Cem evinde Semah döneriz",
+      "Nasıl zengin olunur taktiğini öğrenirip almanyaya yerleşip deport yeriz",
+    ],
     points: [2, 3, 1],
     correctAnswer: 0,
   },
   {
     id: "cem-meydan",
-    eyebrow: "Soru 3 / 18",
+    eyebrow: "Soru 5/24",
     question:
       "Alevi-Bektasi yolunda paylasmayi anlatan sofra kulturune ne denir?",
     answers: ["Lokma", "Lokman", "Kervan"],
@@ -32,15 +57,23 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "semah-modu",
-    eyebrow: "Soru 4 / 18",
+    eyebrow: "Soru 6/24",
     question: "Muharem ayı orucu kac gündür",
     answers: ["12", "11", "13"],
     points: [3, 2, 1],
     correctAnswer: 0,
   },
   {
+    id: "semah-modu",
+    eyebrow: "Soru 7/24",
+    question: "Dünyanın en güzel hanımefendisi bir alevi o alevi kim",
+    answers: ["Zeynep", "Çisem", "Doğan abi"],
+    points: [3, 2, 1],
+    correctAnswer: 1,
+  },
+  {
     id: "lokma-paylas",
-    eyebrow: "Soru 5 / 18",
+    eyebrow: "Soru 8/24",
     question: "Muharrem ayinda tutulan ibadet hangi duyguyla anilir?",
     answers: ["Yas Ve dayanısma", "MUTLU", "KAFİRİM BEN"],
     points: [3, 2, 0],
@@ -48,24 +81,24 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "deyis-anlari",
-    eyebrow: "Soru 6 / 18",
+    eyebrow: "Soru 9/24",
     question: "Evim de 12 imam tablosu var",
-    answers: ["Evet", "Yok", "Olcak"],
+    answers: ["Evet", "Yok", "Olcak !!!!!"],
     points: [2, 3, 1],
     correctAnswer: 0,
   },
   {
     id: "pir-sabri",
-    eyebrow: "Soru 7 / 18",
+    eyebrow: "Soru 10/24",
     question:
       "Alevi misin diye sordugun kişinin Sunni oldugunu duyunca üzüldün mü?",
-    answers: ["Tabi AQ", "Hayır", "Efkarlanıp alkole başladım"],
+    answers: ["Tabi ki evet  AQ", "Hayır", "Duygum yok"],
     points: [3, 2, 1],
     correctAnswer: 0,
   },
   {
     id: "muhabbet-dozu",
-    eyebrow: "Soru 8 / 18",
+    eyebrow: "Soru 11/24",
     question:
       "Aşure gününde karşı komşuna aşure götürürken yüzüne karşı alevilerin yemeği yenilmez dedimi  (yobaz oç komşu)?",
     answers: ["EVET OÇ KOMŞU", "OÇ KOMŞU HAYIR", "KOMŞUMU SKM"],
@@ -74,7 +107,7 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "nefes-geldi",
-    eyebrow: "Soru 9 / 18",
+    eyebrow: "Soru 12/24",
     question:
       "Çekirdek/Geniş ailende Alevi türküleri ile büyüdüm (kıvırcık ali,Güler duman,grup abdal,enginn nursani vs.)",
     answers: ["Evet", "Hayır", "Rihanna ile büyüdüm ben slaysss"],
@@ -83,7 +116,7 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "dede-sorusu",
-    eyebrow: "Soru 10 / 18",
+    eyebrow: "Soru 13/24",
     question:
       "Cem sırasında bağlama eşliğinde söylenen ve inancın özünü anlatan şiirlere/ezgilere ne ad verilir",
     answers: ["Deyiş veya Nefes", "Nefes", "ChatGPT'ye bakılır"],
@@ -92,15 +125,24 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "aska-gelmek",
-    eyebrow: "Soru 11 / 18",
+    eyebrow: "Soru 14/24",
     question: "Çisemin chatindeki neslihan alevi mi?",
     answers: ["Evet", "Hayır", "Ne bilem aq"],
     points: [3, 2, 0],
     correctAnswer: 1,
   },
   {
+    id: "aska-gelmek",
+    eyebrow: "Soru 15/24",
+    question: "Babanız karşı komşunuzu dövdümü",
+    answers: ["HAYIR", "SLAYYYY", "YOBAZ OÇ DİYEREK DÖVDÜ"],
+    points: [3, 2, 0],
+    correctAnswer: 2,
+  },
+
+  {
     id: "yol-erkan",
-    eyebrow: "Soru 12 / 18",
+    eyebrow: "Soru 16/24",
     question: "Yol erkân konuşulurken en doğru tavır ne?",
     answers: [
       "Dinlemek ve saygı duymak",
@@ -112,15 +154,23 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "saz-mi-baglama-mi",
-    eyebrow: "Soru 13 / 18",
+    eyebrow: "Soru 17/24",
     question: "Biri 'saz mı bağlama mı?' diye sorduğunda ne dersin?",
     answers: ["ikisi de", "ananın amı demezdim", "Gitar mı o diye sorarım"],
     points: [3, 2, 0],
     correctAnswer: 0,
   },
   {
+    id: "saz-mi-baglama-mi",
+    eyebrow: "Soru 18/24",
+    question: "Cem Ev'inde ilk önce türkçe kuran sonra arapça okunur",
+    answers: ["evet", "hayır", "bilmem"],
+    points: [3, 2, 0],
+    correctAnswer: 0,
+  },
+  {
     id: "hizir-yardim",
-    eyebrow: "Soru 14 / 18",
+    eyebrow: "Soru 19/24",
     question:
       "Hacı Bektaş Veli’nin öğretisinde insanın manevi olgunluğa ulaşması için geçmesi gereken aşamalara ne ad verilir?",
     answers: ["Dört Kapı Kırk Makam", "Beş kapı üç makam", "Tek Adam"],
@@ -129,7 +179,7 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "canlar-hitabi",
-    eyebrow: "Soru 15 / 18",
+    eyebrow: "Soru 20/24",
     question: "Alevilikte Temel Ahlak İlkesi Nedir?",
     answers: [
       "Eline, beline, diline sahip olmak; aşına, işine, eşine sadık kalmak.",
@@ -141,7 +191,7 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "meydan-edebi",
-    eyebrow: "Soru 16 / 18",
+    eyebrow: "Soru 21/24",
     question: "Semah Nedir?",
     answers: [
       "Hakk'a ulaşma, aşk ile dönme ve birlik ritüelidir.",
@@ -153,15 +203,23 @@ export const alevilikQuiz: QuizQuestion[] = [
   },
   {
     id: "final-niyaz",
-    eyebrow: "Soru 17 / 18",
+    eyebrow: "Soru 22/24",
     question: "Ata ile cemevin de tanışmak istermisin",
     answers: ["Evet", "Hayır", "o kim amk"],
     points: [3, 2, 1],
     correctAnswer: 0,
   },
   {
+    id: "final-niyaz2",
+    eyebrow: "Soru 23/24",
+    question: "Ata nasıl bir alevi ?",
+    answers: ["Muteşem Alevi", "Tam Alevi", "Alevi"],
+    points: [3, 2, 1],
+    correctAnswer: 0,
+  },
+  {
     id: "son-karar",
-    eyebrow: "Soru 18 / 18",
+    eyebrow: "Soru 24/24",
     question: "la feta illa ali la seyfe illa zülfikar anlamı nedir",
     answers: [
       "Zülfikar'dan başka kılıç yoktur",

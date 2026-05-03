@@ -116,10 +116,11 @@ export default function OverlayPage() {
                 Test Başlatılmayı Bekliyor
               </h1>
               <p className="mx-auto mt-4 max-w-2xl text-xl font-semibold text-white/70">
-                Ata testi başlatınca başlar. Sorulara Katılmak için 1 2 3
-                yazarak chate katılabilirsiniz Örnek 1.soru A ise chate 1 ikinci
-                soru b ise 2, 3 üncü soru c ise 3, yani 1 - A demek 2-B demek
-                3-C demek mala anlatır gibi anlatım
+                ALEVİLİK YETERLİLİK ÖLÇÜM TESTİNE HOŞ GELDİNİZZZZZ (AYÖÇ). Ata
+                testi başlatınca başlar. Sorulara Katılmak için 1 2 3 yazarak
+                chate katılabilirsiniz Örnek 1.soru A ise chate 1 ikinci soru b
+                ise 2, 3 üncü soru c ise 3, yani 1 - A demek 2-B demek 3-C demek
+                mala anlatır gibi anlatım
               </p>
               <div className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-3 text-center">
                 {["1", "2", "3"].map((command) => (
@@ -195,6 +196,14 @@ export default function OverlayPage() {
                       {question.question}
                     </h1>
                   </div>
+                  {question.voice && (
+                    <>
+                      <audio controls autoPlay>
+                        <source src="ısırgan.mp3" type="audio/ogg" />
+                      </audio>
+                    </>
+                  )}
+
                   <div className="shrink-0 border border-gold/50 bg-gold/10 px-5 py-3 text-center">
                     <p className="text-xs font-bold uppercase tracking-[0.22em] text-gold">
                       Soru
