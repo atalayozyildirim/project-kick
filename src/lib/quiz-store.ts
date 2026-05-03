@@ -257,11 +257,11 @@ export function getMaxScore(questionCount: number) {
 export function getResultTitle(score: number, questionCount: number) {
   const percent = (score / getMaxScore(questionCount)) * 100;
 
-  if (percent >= 35) {
+  if (percent >= 70) {
     return "Muhteşem Alevi";
   }
 
-  if (percent >= 28) {
+  if (percent >= 56) {
     return "Muhteşem Alevi Adayı";
   }
 
@@ -270,7 +270,7 @@ export function getResultTitle(score: number, questionCount: number) {
   }
 
   if (percent >= 10) {
-    return "Çeyrek Alevi";
+    return "Çeyreğin çeyeri olan Alevi";
   }
 
   return "PİS YOBAZ";
