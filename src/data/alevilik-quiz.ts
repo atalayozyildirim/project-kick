@@ -6,7 +6,7 @@ export const cisemAskQuiz: QuizQuestion[] = [
     eyebrow: "Soru 1/24",
     question: "Sence aşkın ilk aşaması hangisidir?",
     answers: [
-      "Sürekli mesaj kutusunu kontrol etmek",
+      "24 / 7 aklindan cikmamasi yada turevleri",
       "Beraber saçmalamaktan çekinmemek",
       "Onun olduğu her ortamın renginin değişmesi"
     ],
@@ -16,7 +16,7 @@ export const cisemAskQuiz: QuizQuestion[] = [
   {
     id: "dijital-jest",
     eyebrow: "Soru 2/24",
-    question: "Sevdigin kisinin pesinden kosulmalimi kadin/erkek/trans ?",
+    question: "Sevdigin kisinin pesinden kosulmali mi  kadin/erkek/trans ?",
     answers: [
       "Evet",
       "Hayir",
@@ -126,7 +126,7 @@ export const cisemAskQuiz: QuizQuestion[] = [
     eyebrow: "Soru 11/24",
     question: "Bir erkekte en çekici bulduğun zeka türü hangisi?",
     answers: [
-      "Analitik ve korumacı zeka ve alevi zekasi ve Muhtesem alevi olursa iyi olur",
+      "Analitik ve korumacı zeka ve kiskanc ve alevi zekasi ve Muhtesem alevi olursa iyi olur",
       "Mizahi ve pratik zeka",
       "Sanatsal ve duygusal zeka"
     ],
@@ -152,10 +152,22 @@ export const cisemAskQuiz: QuizQuestion[] = [
     answers: [
       "Ata'nin bilmedigi kavram",
       "Kimsenin bilemedigi bir kavram",
-      "Soruları 'orijinal' yapmaya çalışırken sikimsonik gelen"
+      "Bos bir kavram insanlarin arasinda olusan sikimsonik bir duygu patlamasi"
     ],
     points: [3, 1, 2],
     correctAnswer: 0,
+  },
+    {
+    id: "ince-mesa2j",
+    eyebrow: "Soru 13/24",
+    question: "Kadin satan murat mi Libidosu yuksek caglar mi?",
+    answers: [
+      "murat",
+      "caglar",
+      "murat ve caglar"
+    ],
+    points: [3, 1, 2],
+    correctAnswer: 1,
   },
   {
     id: "hediye-anlami",
@@ -186,13 +198,11 @@ export const cisemAskQuiz: QuizQuestion[] = [
   {
     id: "discord-geceleri",
     eyebrow: "Soru 16/24",
-    question: "Asik olmayi kelimlere anlatabilirmisin (asagidaki kodu cozen birinci kisiye atadan hediye)?",
+    question: "Asik olmak nasil bir his ?",
     answers: [
-      "Evet",
+      "Chate soralim",
       "01110000 01100001 01110010 01100001 00100000 01110000 01100001 01110010 01100001 00100000 01110000 01100001 01110010 01100001",
-      "01000001 01001100 01001100 01000001 01001000 01001001 01001101 00100000 01000001 01010011 01001001 01001011 00100000
-       01001101 01001001 00100000 01001111 01001100 01000100 01010101 01001101 00100000 01000010 01001001 01001100 01001101 
-      01001001 01011001 01001111 01010010 01010101 01001101"
+      "bilinmiyor"
     ],
     points: [2, 3, 2],
     correctAnswer: 1,
@@ -272,7 +282,7 @@ export const cisemAskQuiz: QuizQuestion[] = [
   {
     id: "ata-faktoru",
     eyebrow: "Soru 23/24",
-    question: "At?",
+    question: "Ata?",
     answers: [
       "Tersten Ataa",
       "Duzden Ata ",
@@ -280,6 +290,7 @@ export const cisemAskQuiz: QuizQuestion[] = [
       "Sagin zitti olan Ata",
       "SOL dan Ata",
       "Yukaridan bakan Ata"
+      "Asagidan Bakan Ata"
     ],
     points: [2, 3, 0],
     correctAnswer: 2,
