@@ -175,7 +175,6 @@ export const alevilikQuiz: QuizQuestion[] = [
     question: "Sence 'seni seviyorum' demenin en sessiz yolu nedir?",
     answers: [
       "hicbirsey diyemem amk ya ",
-      "En kötü anında sadece yanında susmak",
       "Onun için bir şeyler inşa etmek (site gibi mesela)",
       "Sıradan bir kelimeye sığınmak yerine; saçlarının kokusunu içine çekip, seni tüm dünyadan koruyacakmışım gibi sımsıkı sarılmak..."
     ],
@@ -189,7 +188,7 @@ export const alevilikQuiz: QuizQuestion[] = [
     answers: [
       "Kalabalıktan uzak, sadece ikimizin sesi",
       "Eğlenceli ve aksiyon dolu",
-      "Sanki yıllardır tanışıyormuşuz gibi salaş bir yer (abartmayin amk)",
+      "Sanki yıllardır tanışıyormuşuz gibi salaş bir yer (abartmayin amk)"
     
     ],
     points: [3, 1, 2],
@@ -285,11 +284,9 @@ export const alevilikQuiz: QuizQuestion[] = [
     question: "Ata?",
     answers: [
       "Tersten Ataa",
-      "Duzden Ata ",
       "Sagin zitti olan Ata",
       "SOL dan Ata",
-      "Yukaridan bakan Ata",
-      "Asagidan Bakan Ata"
+
     ],
     points: [2, 3, 0],
     correctAnswer: 2,
