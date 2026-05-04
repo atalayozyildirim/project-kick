@@ -189,8 +189,8 @@ export const cisemAskQuiz: QuizQuestion[] = [
     answers: [
       "Kalabalıktan uzak, sadece ikimizin sesi",
       "Eğlenceli ve aksiyon dolu",
-      "Sanki yıllardır tanışıyormuşuz gibi salaş bir yer",
-      "Sevdigim erkek ise doverim"
+      "Sanki yıllardır tanışıyormuşuz gibi salaş bir yer (abartmayin amk)",
+    
     ],
     points: [3, 1, 2],
     correctAnswer: 0,
@@ -286,10 +286,9 @@ export const cisemAskQuiz: QuizQuestion[] = [
     answers: [
       "Tersten Ataa",
       "Duzden Ata ",
-      "Muhtesem Alevi",
       "Sagin zitti olan Ata",
       "SOL dan Ata",
-      "Yukaridan bakan Ata"
+      "Yukaridan bakan Ata",
       "Asagidan Bakan Ata"
     ],
     points: [2, 3, 0],
