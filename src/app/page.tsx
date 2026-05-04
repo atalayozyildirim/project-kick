@@ -116,8 +116,7 @@ export default function OverlayPage() {
                 Test Başlatılmayı Bekliyor
               </h1>
               <p className="mx-auto mt-4 max-w-2xl text-xl font-semibold text-white/70">
-                ALEVİLİK YETERLİLİK ÖLÇÜM TESTİNE HOŞ GELDİNİZZZZZ (AYÖÇ). Ata
-                testi başlatınca başlar. Sorulara Katılmak için 1 2 3 yazarak
+                 Sorulara Katılmak için 1 2 3 yazarak
                 chate katılabilirsiniz Örnek 1.soru A ise chate 1 ikinci soru b
                 ise 2, 3 üncü soru c ise 3, yani 1 - A demek 2-B demek 3-C demek
                 mala anlatır gibi anlatım
