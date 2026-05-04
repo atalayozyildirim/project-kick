@@ -174,7 +174,7 @@ export const alevilikQuiz: QuizQuestion[] = [
     eyebrow: "Soru 14/24",
     question: "Sence 'seni seviyorum' demenin en sessiz yolu nedir?",
     answers: [
-      "",
+      "hicbirsey diyemem amk ya ",
       "En kötü anında sadece yanında susmak",
       "Onun için bir şeyler inşa etmek (site gibi mesela)",
       "Sıradan bir kelimeye sığınmak yerine; saçlarının kokusunu içine çekip, seni tüm dünyadan koruyacakmışım gibi sımsıkı sarılmak..."
