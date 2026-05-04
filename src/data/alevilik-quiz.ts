@@ -1,232 +1,299 @@
 import type { QuizQuestion } from "@/lib/quiz-store";
 
-export const alevilikQuiz: QuizQuestion[] = [
+export const cisemAskQuiz: QuizQuestion[] = [
   {
-    id: "saz-teli",
+    id: "ilk-his",
     eyebrow: "Soru 1/24",
-    question: "Aleviler de dede kavramı nedir",
+    question: "Sence aşkın ilk aşaması hangisidir?",
     answers: [
-      "Alevilerde Cem ibadetini dede yönetir. Yani din adamına dede denir. Dedelerin soyunun Hz. Muhammed’e dayandığına inanılır.",
-      "Alevilerde Cem ibadetini dede yönetir. Yani din adamına dede denir. Dedelerin soyunun Hz. Ali'e dayandığına inanılır",
-      "Aleviler Cem ibadetini dede yönetir . Yani din adamine dede denir. Dedelerin soyunun Hz.Ebubekir'e dayangıdı inanılır",
+      "Sürekli mesaj kutusunu kontrol etmek",
+      "Beraber saçmalamaktan çekinmemek",
+      "Onun olduğu her ortamın renginin değişmesi"
     ],
-    points: [3, 2, 0],
+    points: [2, 1, 3],
+    correctAnswer: 2,
+  },
+  {
+    id: "dijital-jest",
+    eyebrow: "Soru 2/24",
+    question: "Sevdigin kisinin pesinden kosulmalimi kadin/erkek/trans ?",
+    answers: [
+      "Evet",
+      "Hayir",
+      "Beyin lobum calismiyor cevap veremem"
+    ],
+    points: [0, 3, 2],
     correctAnswer: 1,
   },
   {
-    id: "kıvırcık-ali",
-    eyebrow: "Soru 2/24",
-    question: "Çalan şarkının Adi nedir",
-    answers: [
-      "Kıvırcık Ali Isırgan otu",
-      "Kıvırcık Ali - Al Ömrümü",
-      "Semiramis Pekkan - Çikita Muz",
-    ],
-    voice: true,
-    points: [2, 3, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "hizir-gibi",
+    id: "ideal-partner",
     eyebrow: "Soru 3/24",
-    question: "Cem erkani gelenekte hangi mekanda yurutulur?",
-    answers: ["Cemevi", "Evde", "Salonda "],
-    points: [2, 3, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "hizir-gibi24",
-    eyebrow: "Soru 4/24",
-    question: "Ata ankaraya geldi Eryaman'lar cemevin de gördün naparsın?",
+    question: "Sence ideal partner hangisine daha yakın olmalı?",
     answers: [
-      "Döverim (Sadece çisem,Çisem harici ebenize  619 çeker)",
-      "Cem evinde Semah döneriz",
-      "Nasıl zengin olunur taktiğini öğrenirip almanyaya yerleşip deport yeriz",
+      "En iyi arkadaşın gibi hissettiren",
+      "Sürekli sana hayran hayran bakan",
+      "Hayatını kolaylaştıran bir çözüm ortağı"
     ],
-    points: [2, 3, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "cem-meydan",
-    eyebrow: "Soru 5/24",
-    question:
-      "Alevi-Bektasi yolunda paylasmayi anlatan sofra kulturune ne denir?",
-    answers: ["Lokma", "Lokman", "Kervan"],
     points: [3, 1, 2],
     correctAnswer: 0,
   },
   {
-    id: "semah-modu",
+    id: "yayinci-hayati",
+    eyebrow: "Soru 4/24",
+    question: "Yayından sonra gelen o derin sessizlikte ne istersin?",
+    answers: [
+      "Sadece müzik dinleyip kafa dinlemek",
+      "Güvendiğim birinin sesini duymak ve dertleşmek",
+      "Hemen uyumak"
+    ],
+    points: [1, 3, 0],
+    correctAnswer: 1,
+  },
+  {
+    id: "kucuk-mutluluk",
+    eyebrow: "Soru 5/24",
+    question: "Seni en çok hangisi duygulandırır?",
+    answers: [
+      "Anlatmadığın küçük bir detayının hatırlanması",
+      "Gelen pahalı bir hediye kutusu",
+      "Haberin yokken senin için bir şey yapılması"
+    ],
+    points: [3, 0, 2],
+    correctAnswer: 0,
+  },
+  {
+    id: "ozlem-belirtisi",
     eyebrow: "Soru 6/24",
-    question: "Muharem ayı orucu kac gündür",
-    answers: ["12", "11", "13"],
-    points: [3, 2, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "semah-modu",
-    eyebrow: "Soru 7/24",
-    question: "Dünyanın en güzel hanımefendisi bir alevi o alevi kim",
-    answers: ["Zeynep", "Çisem", "Doğan abi"],
-    points: [3, 2, 1],
-    correctAnswer: 1,
-  },
-  {
-    id: "lokma-paylas",
-    eyebrow: "Soru 8/24",
-    question: "Muharrem ayinda tutulan ibadet hangi duyguyla anilir?",
-    answers: ["Yas Ve dayanısma", "MUTLU", "KAFİRİM BEN"],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "deyis-anlari",
-    eyebrow: "Soru 9/24",
-    question: "Evim de 12 imam tablosu var",
-    answers: ["Evet", "Yok", "Olcak !!!!!"],
-    points: [2, 3, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "pir-sabri",
-    eyebrow: "Soru 10/24",
-    question:
-      "Alevi misin diye sordugun kişinin Sunni oldugunu duyunca üzüldün mü?",
-    answers: ["Tabi ki evet  AQ", "Hayır", "Duygum yok"],
-    points: [3, 2, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "muhabbet-dozu",
-    eyebrow: "Soru 11/24",
-    question:
-      "Aşure gününde karşı komşuna aşure götürürken yüzüne karşı alevilerin yemeği yenilmez dedimi  (yobaz oç komşu)?",
-    answers: ["EVET OÇ KOMŞU", "OÇ KOMŞU HAYIR", "KOMŞUMU SKM"],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "nefes-geldi",
-    eyebrow: "Soru 12/24",
-    question:
-      "Çekirdek/Geniş ailende Alevi türküleri ile büyüdüm (kıvırcık ali,Güler duman,grup abdal,enginn nursani vs.)",
-    answers: ["Evet", "Hayır", "Rihanna ile büyüdüm ben slaysss"],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "dede-sorusu",
-    eyebrow: "Soru 13/24",
-    question:
-      "Cem sırasında bağlama eşliğinde söylenen ve inancın özünü anlatan şiirlere/ezgilere ne ad verilir",
-    answers: ["Deyiş veya Nefes", "Nefes", "ChatGPT'ye bakılır"],
-    points: [3, 1, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "aska-gelmek",
-    eyebrow: "Soru 14/24",
-    question: "Çisemin chatindeki neslihan alevi mi?",
-    answers: ["Evet", "Hayır", "Ne bilem aq"],
-    points: [3, 2, 0],
-    correctAnswer: 1,
-  },
-  {
-    id: "aska-gelmek",
-    eyebrow: "Soru 15/24",
-    question: "Babanız karşı komşunuzu dövdümü",
-    answers: ["HAYIR", "SLAYYYY", "YOBAZ OÇ DİYEREK DÖVDÜ"],
-    points: [3, 2, 0],
+    question: "Özlemek sence nasıl bir his?",
+    answers: [
+      "Ekrandaki ismine bakıp gülümsemek",
+      "Sürekli onunla ilgili bir şeyler anlatmak",
+      "Zamanın geçmek bilmemesi"
+    ],
+    points: [2, 1, 3],
     correctAnswer: 2,
   },
-
   {
-    id: "yol-erkan",
-    eyebrow: "Soru 16/24",
-    question: "Yol erkân konuşulurken en doğru tavır ne?",
+    id: "sadakat-tanimi",
+    eyebrow: "Soru 7/24",
+    question: "Bir ilişkide 'biz olduk' dediğin o an hangisidir?",
     answers: [
-      "Dinlemek ve saygı duymak",
-      "Hemen yorum kasmak",
-      "Konuyu trollemek",
+      "Birbirinizin en rezil hallerine gülmeye başladığınızda",
+      "Sosyal medyada paylaşım yaptığınızda",
+      "Sadece sessizce otururken bile sıkılmadığınızda"
     ],
-    points: [3, 1, 0],
-    correctAnswer: 0,
+    points: [2, 1, 3],
+    correctAnswer: 2,
   },
   {
-    id: "saz-mi-baglama-mi",
-    eyebrow: "Soru 17/24",
-    question: "Biri 'saz mı bağlama mı?' diye sorduğunda ne dersin?",
-    answers: ["ikisi de", "ananın amı demezdim", "Gitar mı o diye sorarım"],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "saz-mi-baglama-mi",
-    eyebrow: "Soru 18/24",
-    question: "Cem Ev'inde ilk önce türkçe kuran sonra arapça okunur",
-    answers: ["evet", "hayır", "bilmem"],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "hizir-yardim",
-    eyebrow: "Soru 19/24",
-    question:
-      "Hacı Bektaş Veli’nin öğretisinde insanın manevi olgunluğa ulaşması için geçmesi gereken aşamalara ne ad verilir?",
-    answers: ["Dört Kapı Kırk Makam", "Beş kapı üç makam", "Tek Adam"],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "canlar-hitabi",
-    eyebrow: "Soru 20/24",
-    question: "Alevilikte Temel Ahlak İlkesi Nedir?",
+    id: "surpriz-etkisi",
+    eyebrow: "Soru 8/24",
+    question: "Hiç beklemediğin bir anda kapında beliren bir çiçek mi, yoksa 'seni düşündüm' diyen bir kod mu?",
     answers: [
-      "Eline, beline, diline sahip olmak; aşına, işine, eşine sadık kalmak.",
-      "Ahlaklı olmak",
-      "iyilik iyidir",
+      "Çiçek her zaman kazanır",
+      "Emek verilmiş dijital bir sürpriz daha özeldir",
+      "Her ikisi de beni benden alır"
     ],
-    points: [3, 2, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "meydan-edebi",
-    eyebrow: "Soru 21/24",
-    question: "Semah Nedir?",
-    answers: [
-      "Hakk'a ulaşma, aşk ile dönme ve birlik ritüelidir.",
-      "Pirlere niyaz ederiz",
-      "Dönüp durmak",
-    ],
-    points: [3, 2, 0],
-    correctAnswer: 0,
-  },
-  {
-    id: "final-niyaz",
-    eyebrow: "Soru 22/24",
-    question: "Ata ile cemevin de tanışmak istermisin",
-    answers: ["Evet", "Hayır", "o kim amk"],
-    points: [3, 2, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "final-niyaz2",
-    eyebrow: "Soru 23/24",
-    question: "Ata nasıl bir alevi ?",
-    answers: ["Muteşem Alevi", "Tam Alevi", "Alevi"],
-    points: [3, 2, 1],
-    correctAnswer: 0,
-  },
-  {
-    id: "son-karar",
-    eyebrow: "Soru 24/24",
-    question: "la feta illa ali la seyfe illa zülfikar anlamı nedir",
-    answers: [
-      "Zülfikar'dan başka kılıç yoktur",
-      "Ali'den başka yiğit, Zülfikar'dan başka kılıç yoktur",
-      "Ali'den başka yiğit, Zülfikar'dan başka kılıç vardır",
-    ],
-    points: [3, 2, 0],
+    points: [1, 3, 2],
     correctAnswer: 1,
+  },
+  {
+    id: "frekans-uyumu",
+    eyebrow: "Soru 9/24",
+    question: "Biriyle enerjinin tuttuğunu nasıl anlarsın?",
+    answers: [
+      "Esprilerine sadece o gülüyorsa",
+      "Cümlelerinizi aynı anda tamamlıyorsanız",
+      "Bakışlarla anlaşabiliyorsanız"
+    ],
+    points: [1, 3, 2],
+    correctAnswer: 1,
+  },
+  {
+    id: "gece-mesaji-2",
+    eyebrow: "Soru 10/24",
+    question: "Gece 03:00'te gelen 'Uyumadığını biliyorum' mesajı sende ne uyandırır?",
+    answers: [
+      "Biraz heyecan ve merak",
+      "Huzur",
+      "Uyandirdin cunku mesajin ile orospu evladi derim"
+    ],
+    points: [3, 2, 0],
+    correctAnswer: 0,
+  },
+  {
+    id: "karakter-sorusu",
+    eyebrow: "Soru 11/24",
+    question: "Bir erkekte en çekici bulduğun zeka türü hangisi?",
+    answers: [
+      "Analitik ve korumacı zeka ve alevi zekasi ve Muhtesem alevi olursa iyi olur",
+      "Mizahi ve pratik zeka",
+      "Sanatsal ve duygusal zeka"
+    ],
+    points: [3, 2, 2],
+    correctAnswer: 0,
+  },
+  {
+    id: "güven-limani",
+    eyebrow: "Soru 12/24",
+    question: "Hayatındaki kişi senin için hangisi olmalı?",
+    answers: [
+      "Heyecan dolu bir macera",
+      "Fırtınada sığınacağın bir liman",
+      "Seni sürekli şaşırtan bir bilmece"
+    ],
+    points: [2, 3, 1],
+    correctAnswer: 1,
+  },
+  {
+    id: "ince-mesaj",
+    eyebrow: "Soru 13/24",
+    question: "ask nedir?",
+    answers: [
+      "Ata'nin bilmedigi kavram",
+      "Kimsenin bilemedigi bir kavram",
+      "Soruları 'orijinal' yapmaya çalışırken sikimsonik gelen"
+    ],
+    points: [3, 1, 2],
+    correctAnswer: 0,
+  },
+  {
+    id: "hediye-anlami",
+    eyebrow: "Soru 14/24",
+    question: "Sence 'seni seviyorum' demenin en sessiz yolu nedir?",
+    answers: [
+      "",
+      "En kötü anında sadece yanında susmak",
+      "Onun için bir şeyler inşa etmek (site gibi mesela)",
+      "Sıradan bir kelimeye sığınmak yerine; saçlarının kokusunu içine çekip, seni tüm dünyadan koruyacakmışım gibi sımsıkı sarılmak..."
+    ],
+    points: [2, 1, 3],
+    correctAnswer: 2,
+  },
+  {
+    id: "ilk-bulusma-hayali",
+    eyebrow: "Soru 15/24",
+    question: "İlk gerçek buluşmada ortam nasıl olmalı?",
+    answers: [
+      "Kalabalıktan uzak, sadece ikimizin sesi",
+      "Eğlenceli ve aksiyon dolu",
+      "Sanki yıllardır tanışıyormuşuz gibi salaş bir yer",
+      "Sevdigim erkek ise doverim"
+    ],
+    points: [3, 1, 2],
+    correctAnswer: 0,
+  },
+  {
+    id: "discord-geceleri",
+    eyebrow: "Soru 16/24",
+    question: "Asik olmayi kelimlere anlatabilirmisin (asagidaki kodu cozen birinci kisiye atadan hediye)?",
+    answers: [
+      "Evet",
+      "01110000 01100001 01110010 01100001 00100000 01110000 01100001 01110010 01100001 00100000 01110000 01100001 01110010 01100001",
+      "01000001 01001100 01001100 01000001 01001000 01001001 01001101 00100000 01000001 01010011 01001001 01001011 00100000
+       01001101 01001001 00100000 01001111 01001100 01000100 01010101 01001101 00100000 01000010 01001001 01001100 01001101 
+      01001001 01011001 01001111 01010010 01010101 01001101"
+    ],
+    points: [2, 3, 2],
+    correctAnswer: 1,
+  },
+  {
+    id: "yarim-kalan",
+    eyebrow: "Soru 18-1/24",
+    question: "İnsan en çok ne zaman ‘geç kaldım’ der sence?",
+    answers: [
+      "Söylemek istediği şeyi içinde çürüttüğünü fark ettiğinde",
+      "Gidenin aslında hiç dönmeyeceğini anladığında",
+      "Onu hâlâ severken, artık sesini duyamayacağını kabullendiği o sessiz gecede…"
+    ],
+    points: [1, 2, 3],
+    correctAnswer: 2,
+  },
+  {
+    id: "romantik-mi-realist-mi",
+    eyebrow: "Soru 18/24",
+    question: "Aşk sence bir mantık işi mi yoksa tamamen tesadüf mü?",
+    answers: [
+      "Tamamen kader ve tesadüf",
+      "Mantıklı bir çekim",
+      "Doğru zamanda doğru kişinin karşımıza çıkması (ruyanizda anca amk essekleri)"
+    ],
+    points: [2, 1, 3],
+    correctAnswer: 2,
+  },
+  {
+    id: "yazilimci-aski",
+    eyebrow: "Soru 19/24",
+    question: "Gercekten asik oldun mu hayatin boyunca",
+    answers: [
+      "EVET",
+      "NULL",
+      "PARA "
+    ],
+    points: [1, 3, 1],
+    correctAnswer: 1,
+  },
+  {
+    id: "goz-temasi",
+    eyebrow: "Soru 20/24",
+    question: "Gözlerinin içine bakarak konuşan biri sana ne hissettirir?",
+    answers: [
+      "Heyecan ve hafif bir utanma",
+      "Samimiyet ve dürüstlük",
+      "Rahatsızlık SAPIK OC"
+    ],
+    points: [3, 3, 0],
+    correctAnswer: 1,
+  },
+  {
+    id: "gelecek-plani",
+    eyebrow: "Soru 21/24",
+    question: "Gelecekte 'keşke' dememek için ne yapmalı?",
+    answers: [
+      "Duyguları ertelememeli",
+      "Akışına bırakmalı",
+      "Çok ince düşünmemeli"
+    ],
+    points: [3, 2, 1],
+    correctAnswer: 0,
+  },
+  {
+    id: "paylasim-adabi",
+    eyebrow: "Soru 22/24",
+    question: "Seni gerçekten tanıyan birinin yapabileceği en etkileyici şey nedir?",
+    answers: [
+      "Senin bile unuttuğun küçük bir hayalini aylar sonra gerçekleştirmesi",
+      "Dünyaya ilan etmek gurur verici",
+      "Sadece ses tonundan o günkü modunu anında analiz etmesi"
+    ],
+    points: [3, 1, 2],
+    correctAnswer: 0,
+  },
+  {
+    id: "ata-faktoru",
+    eyebrow: "Soru 23/24",
+    question: "At?",
+    answers: [
+      "Tersten Ataa",
+      "Duzden Ata ",
+      "Muhtesem Alevi",
+      "Sagin zitti olan Ata",
+      "SOL dan Ata",
+      "Yukaridan bakan Ata"
+    ],
+    points: [2, 3, 0],
+    correctAnswer: 2,
+  },
+  {
+    id: "son-karar-2",
+    eyebrow: "Soru 24/24",
+    question: "Sence binlerce kişiyle konuşmak mı daha kıymetlidir, yoksa tek bir kişiyle sabahlamak mı?",
+    answers: [
+      "Kalabalıklar her zaman daha eğlencelidir",
+      "Tek bir kişinin varlığı, geri kalan herkesi susturmaya yetebilir",
+      "Duruma göre değişir, bazen sessizlik iyidir"
+    ],
+    points: [3, 0, 1],
+    correctAnswer: 0,
   },
 ];
