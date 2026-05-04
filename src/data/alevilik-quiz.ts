@@ -1,6 +1,6 @@
 import type { QuizQuestion } from "@/lib/quiz-store";
 
-export const cisemAskQuiz: QuizQuestion[] = [
+export const alevilikQuiz: QuizQuestion[] = [
   {
     id: "ilk-his",
     eyebrow: "Soru 1/24",
