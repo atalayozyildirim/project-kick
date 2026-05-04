@@ -160,7 +160,7 @@ export const alevilikQuiz: QuizQuestion[] = [
     {
     id: "ince-mesa2j",
     eyebrow: "Soru 13/24",
-    question: "Kadin satan murat mi Libidosu yuksek caglar mi?",
+    question: "Kadin satan murat mi Gobek deligi seven  caglar mi?",
     answers: [
       "murat",
       "caglar",
@@ -281,11 +281,11 @@ export const alevilikQuiz: QuizQuestion[] = [
   {
     id: "ata-faktoru",
     eyebrow: "Soru 23/24",
-    question: "Ata?",
+    question: "Dunyanin en guzel hanimefendisi?",
     answers: [
-      "Tersten Ataa",
-      "Sagin zitti olan Ata",
-      "SOL dan Ata",
+      "Cisem CISEM cisem dogan olan cisem zeynep olan cisem alevi olan cisem muhtesem pro max ultra alevi cisem",
+      "cisem 1 cisem 1",
+      "cisem demeyen katiksiz oc",
 
     ],
     points: [2, 3, 0],
